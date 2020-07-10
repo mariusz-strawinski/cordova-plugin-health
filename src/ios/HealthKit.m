@@ -1482,6 +1482,9 @@ static NSString *const HKPluginKeyUUID = @"UUID";
     } else if ([sampleTypeString isEqualToString:@"HKQuantityTypeIdentifierHeartRate"]) {
         statOpt = HKStatisticsOptionDiscreteAverage;
 
+    } else if ([sampleTypeString isEqualToString:@"HKQuantityTypeIdentifierHeadphoneAudioExposure"]) {
+        statOpt = HKStatisticsOptionDiscreteAverage;
+
     } else { //HKQuantityTypeIdentifierStepCount, etc...
         statOpt = HKStatisticsOptionCumulativeSum;
     }
