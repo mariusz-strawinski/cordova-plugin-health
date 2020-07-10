@@ -46,6 +46,8 @@ dataTypes['blood_pressure'] = 'HKCorrelationTypeIdentifierBloodPressure'; // whe
 dataTypes['resp_rate'] = 'HKQuantityTypeIdentifierRespiratoryRate';
 dataTypes['vo2max'] = 'HKQuantityTypeIdentifierVO2Max';
 dataTypes['temperature'] = 'HKQuantityTypeIdentifierBodyTemperature';
+dataTypes['headphones'] = 'HKQuantityTypeIdentifierHeadphoneAudioExposure';
+
 
 // for parseable units in HK, see https://developer.apple.com/documentation/healthkit/hkunit/1615733-unitfromstring?language=objc
 var units = [];
